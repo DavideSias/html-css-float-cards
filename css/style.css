@@ -34,6 +34,10 @@ h1{
 	margin: 1rem 1rem 2rem;
 	background-color: rgb(15, 14, 23);
     color: white;
+    box-shadow: 3px 3px 10px #888888,
+                -3px -3px 10px #888888,
+                3px -3px 10px #888888,
+                -3px 3px 10px #888888
 }
 
 img{
@@ -61,6 +65,7 @@ a{
     font-size: 17px;
     font-weight: 600;
 }
+
 
 
 
