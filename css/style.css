@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
 .container{
     max-width: 1200px;
     margin: auto;
@@ -15,10 +19,13 @@ h1, .subtitle{
 
 h1{
     margin: 30px 0 40px;
+    color: rgb(229, 49, 122);
+    font-weight: 600;
 }
 
 .subtitle{
     margin-bottom: 20px;
+    font-weight: 400;
 }
 
 .card{
@@ -34,15 +41,27 @@ img{
     float: left;
 }
 
-a{
-    color: rgb(100, 200, 242);
-}
-
 .card-box{
     padding-left: calc(100px + 1rem);
     padding-top: 10px;
 }
 
 p{
-    margin-bottom: 10px;
+    margin-bottom: 7px;
+    font-weight: 300;
 }
+
+a{
+    color: rgb(100, 200, 242);
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.name{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+
+
